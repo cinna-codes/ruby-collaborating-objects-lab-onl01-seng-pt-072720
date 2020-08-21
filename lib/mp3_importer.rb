@@ -5,7 +5,7 @@ attr_accessor :path
     @path = path
   end
 
-  def files
+  def files(argument)
 
   end
 
