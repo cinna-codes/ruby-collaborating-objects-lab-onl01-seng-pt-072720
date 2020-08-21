@@ -22,7 +22,7 @@ attr_accessor :name, :artist
   end
 
   def artist_name(art_name)
-    self.artist = Artist.find_or_create_by_name(art_name)
+    self.artist.name = Artist.find_or_create_by_name(art_name)
   end
 
 end
