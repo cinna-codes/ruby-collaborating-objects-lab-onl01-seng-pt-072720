@@ -17,7 +17,8 @@ attr_accessor :name
   end
 
   def songs
-    Artist.all.select { self }
+    # Artist.all.select { self }
+    @@all.select { self }
   end
 
   def self.find_or_create_by_name
