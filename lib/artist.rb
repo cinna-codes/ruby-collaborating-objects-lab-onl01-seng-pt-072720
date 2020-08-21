@@ -26,7 +26,7 @@ attr_accessor :name
   end
 
   def print_song
-
+    print self.songs
   end
 
 end
