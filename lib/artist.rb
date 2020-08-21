@@ -22,7 +22,7 @@ attr_accessor :name
   end
 
   def self.find_or_create_by_name(name)
-    if self.all
+    if self.all.find { name }
 
     end
   end
