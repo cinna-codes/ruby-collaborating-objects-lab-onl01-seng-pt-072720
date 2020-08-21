@@ -13,7 +13,7 @@ attr_accessor :name
   end
 
   def add_song(title)
-
+    title = Song.new(title)
   end
 
   def songs
