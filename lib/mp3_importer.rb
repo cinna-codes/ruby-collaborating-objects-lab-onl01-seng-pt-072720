@@ -5,7 +5,7 @@ attr_accessor :path
     @path = path
   end
 
-  def files(argument)
+  def files
     Dir.glob(argument)
   end
 
