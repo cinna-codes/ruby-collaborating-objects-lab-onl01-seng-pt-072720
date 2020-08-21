@@ -31,7 +31,7 @@ attr_accessor :name
 
   def print_songs
     print_songs_array = []
-    puts self.songs.name
+    print_songs_array << self.songs.name
   end
 
 end
