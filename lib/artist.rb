@@ -21,8 +21,10 @@ attr_accessor :name
     Song.all.select { |search| search.artist == self }
   end
 
-  def self.find_or_create_by_name(title)
+  def self.find_or_create_by_name(name)
+    if self.all
 
+    end
   end
 
   def print_song
