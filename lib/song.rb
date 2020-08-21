@@ -25,6 +25,4 @@ attr_accessor :name, :artist
     self.artist = Artist.find_or_create_by_name(art_name)
   end
 
-
-
 end
