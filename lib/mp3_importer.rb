@@ -6,7 +6,7 @@ attr_accessor :path
   end
 
   def files
-    Dir.glob("#{@path}/*.mp3").map { |item| item.gsub("#{path}").shift }
+    Dir.glob("#{@path}/*.mp3").map { |item| item.gsub("#{path}") }
 
   end
 
