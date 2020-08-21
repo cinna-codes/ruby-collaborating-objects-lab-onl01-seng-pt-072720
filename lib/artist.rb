@@ -22,9 +22,10 @@ attr_accessor :name
   end
 
   def self.find_or_create_by_name(name)
-    if self.all.find { |artist| artist.name == name }
+    self.all.find { |artist| artist.name == name }
 
-    end
+
+      return name
   end
 
   def print_song
