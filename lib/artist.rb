@@ -18,7 +18,7 @@ attr_accessor :name
 
   def songs
     # Artist.all.select { self }
-    Song.all.select { |art| art == self }
+    Song.all.select { |art| art.artist }
   end
 
   def self.find_or_create_by_name
