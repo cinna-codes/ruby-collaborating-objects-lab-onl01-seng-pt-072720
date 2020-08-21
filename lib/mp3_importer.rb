@@ -6,7 +6,7 @@ attr_accessor :path
   end
 
   def files(argument)
-
+    Dir.glob(argument)
   end
 
   def import
