@@ -15,6 +15,8 @@ attr_accessor :name, :artist
 
   end
 
+  # self.artist
+
 
 
 end
