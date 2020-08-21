@@ -10,7 +10,7 @@ attr_accessor :path
   end
 
   def import
-
+    files
   end
 
 end
