@@ -12,7 +12,7 @@ attr_accessor :name
     @@all
   end
 
-  def add_song
+  def add_song(title)
 
   end
 
