@@ -30,8 +30,6 @@ attr_accessor :name
   end
 
   def print_songs
-    # print_songs_array = []
-    # print_songs_array <<
     self.songs.each { |song| puts song.name  }
   end
 
