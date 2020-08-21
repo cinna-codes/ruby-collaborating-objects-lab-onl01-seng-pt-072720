@@ -6,7 +6,7 @@ attr_accessor :path
   end
 
   def files
-    Dir.glob("#{@path}/*.mp3")
+    Dir.glob("#{@path}/*.mp3").split(" - ").shift
   end
 
   def import
