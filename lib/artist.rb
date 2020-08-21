@@ -25,7 +25,7 @@ attr_accessor :name
     if self.all.find { |artist| artist.name == name }
       self.all.find { |artist| artist.name == name }
     else
-      name = self.new(name)
+      self.new(name)
     end
       return name
   end
