@@ -6,7 +6,7 @@ attr_accessor :path
   end
 
   def files
-    self.path.Dir.glob(*mp3)
+    Dir.glob(*mp3)
   end
 
   def import
