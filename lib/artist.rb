@@ -27,7 +27,7 @@ attr_accessor :name
     else
       self.new(name)
     end
-      return name
+
   end
 
   def print_song
