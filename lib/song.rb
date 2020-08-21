@@ -12,8 +12,8 @@ attr_accessor :name, :artist
     @@all
   end
 
-  def self.new_by_filename
-
+  def self.new_by_filename(new_song)
+    new_song.split(" - ")
   end
 
 
